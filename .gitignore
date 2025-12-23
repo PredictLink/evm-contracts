@@ -1,0 +1,46 @@
+node_modules
+.env
+coverage
+coverage.json
+typechain
+typechain-types
+
+# Hardhat files
+cache
+artifacts
+
+# Deployment files
+deployments/*.json
+!deployments/.gitkeep
+
+# Test files
+test-results/
+
+# Build files
+dist
+build
+
+# IDE
+.vscode
+.idea
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Gas reports
+gas-report.txt
+
+# Misc
+.cache
+.temp
